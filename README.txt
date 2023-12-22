@@ -1,0 +1,1 @@
+NOTE: If you wish to run multiple instances via cmd, ensure the Keys folder is in the "FormattedServer directory", which should be by default, otherwise running instances directly from the ide will reference the Keys folder from the root directory instead.
