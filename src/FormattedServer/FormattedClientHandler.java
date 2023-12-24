@@ -4,7 +4,8 @@ import javax.net.ssl.*;
 import java.io.*;
 
 /**
- * This class' purpose is to handle the interactions from the server to the client
+ * This class' purpose is to handle the interactions
+ * from the server to the client
  */
 public class FormattedClientHandler extends Thread {
     private final SSLSocket clientSocket;
@@ -42,6 +43,7 @@ public class FormattedClientHandler extends Thread {
             }
 
             clientSocket.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
