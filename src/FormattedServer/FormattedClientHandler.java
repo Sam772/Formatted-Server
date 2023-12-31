@@ -39,6 +39,7 @@ public class FormattedClientHandler extends Thread {
                 }
 
                 // Send the formatted message back to the client
+                System.out.println("The message was sent back to the client in the format: " + format);
                 pw.println(formattedMessage);
             }
 
