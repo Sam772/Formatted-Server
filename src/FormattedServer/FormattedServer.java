@@ -36,7 +36,8 @@ public class FormattedServer {
         // For SSL debugging purposes:
         //System.setProperty("javax.net.debug", "ssl");
 
-        // Tells the server where the keystore and certificate is and sets it to be used for the server side ssl
+        // Tells the server where the keystore and certificate
+        // is and sets it to be used for the server side ssl
         System.setProperty("javax.net.ssl.keyStore", KEYSTOREFILEPATH);
         System.setProperty("javax.net.ssl.keyStorePassword", KEYSTOREPASSWORD);
 

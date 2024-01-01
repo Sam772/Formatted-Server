@@ -53,7 +53,8 @@ public class FormattedClient {
         // For SSL debugging purposes:
         //System.setProperty("javax.net.debug", "ssl");
 
-        // Tells the client where the truststore and certificate is and sets it to be used for the client side ssl
+        // Tells the client where the truststore and certificate
+        // is and sets it to be used for the client side ssl
         System.setProperty("javax.net.ssl.trustStore", TRUSTSTOREFILEPATH);
         System.setProperty("javax.net.ssl.trustStorePassword", TRUSTSTOREPASSWORD);
 
